@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Party RSVP</title>
+    <link rel="icon" type="image/png" href="https://i.kym-cdn.com/entries/icons/medium/000/028/526/honklhonk.jpg">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home"></i> Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="nav-toggle">
+                <button id="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <i class="fas fa-moon"></i> <!-- Default icon (moon) -->
+                </button>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container" id="home">
+        <h1>Welcome to the Ultimate <br> Fabriz' House Party!</h1>
+           <p>Guess what?<br><br>🎉 You’ve just hit the jackpot! 🎉 <br><br>
+            You’ve Been Selected to attend <b>THE</b> Fabriz'House Party of the Year!<br><br>
+            
+            This is not just any party – it’s a once-in-a-lifetime event, and you’re on the guest list for a night of unforgettable fun! <br><br>We’re talking mind-blowing music, scrumptious food, and a vibe that’s off the charts. <br><br>
+            
+            Get ready to party like never before, and don’t forget to bring your energy and excitement.<br><br> This is <b>YOUR</b> night to shine and make memories that will last a lifetime. <br><br> Can’t wait to see you there!<br><br>
+            
+            <span class="left-align">Yours Sincerely,</span><br>
+            <span class="right-align">Ugo P20 PolLuxX</span></p>
+    </div>
+    
+    <div class="container" id="about">
+        <h2>About the Party</h2>
+        <p>Join us for a night of fun, music, and autistic laughter.<br><br> We're hosting it at the iconic Fabriz' House, and it's going to be a night you won't forget!<br><br>
+
+            Here’s the deal:<br><br>
+            
+            <b>BYOB</b>: Bring your own booze and get ready to drink up! <br><br>🤪🍻🤪<br><br>
+            <b>BYOD</b>: Feel free to bring any other fun you want to enjoy – just keep it safe and responsible. <br><br>💊🎉🌿<br><br><p>Date: [August 24 2024]<br><br>
+            Time: [8 PM CET]<br><br>
+            Location: <a href="#location">[See Location]</a></p>
+    </div>
+    
+    <div class="container" id="rsvp">
+        <h2>RSVP</h2>
+            <p>Please fill the form for logistic purposes!</p>
+        <form id="rsvpForm" action="mailto:u.fabrizi@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="availability">Are you coming?</label>
+                <select id="availability" name="availability" required>
+                    <option value="">Select an option</option>
+                    <option value="yes">Who do you think I AM? I'll be there!</option>
+                    <option value="no">Everything I've achieved in life is worthless and can't make it.</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container" id="location">
+        <h2>Location</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2590.3158572150774!2d5.771584776890404!3d49.51631235418163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47eac865f0d1a82d%3A0x487a0b3e8385c124!2s12%20Rue%20Saint-Louis%2C%2054400%20Longwy!5e0!3m2!1sfr!2sfr!4v1722619108024!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Me</h2>
+        <div class="social-icons">
+            <a href="https://twitter.com/fabrizou" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://instagram.com/amazin_ugo" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="https://chat.whatsapp.com/EOx8xp5EhK05WTKUZHOZlI" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp-square"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
